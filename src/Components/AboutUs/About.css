@@ -1,0 +1,139 @@
+.about-title {
+    color: #565657;
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 122%;
+    letter-spacing: -6.6px;
+}
+
+
+.about-subtitle {
+    color: #666C89;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 151.523%;
+    /* 48.487px */
+}
+
+.crdgroup2 {
+    margin-top: 10%;
+}
+
+
+.cardtitle {
+    color: #565657;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 120%;
+    /* 33.6px */
+    letter-spacing: -0.84px;
+}
+
+.cardsubtitle {
+    color: rgba(26, 25, 30, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 180%;
+    /* 28.8px */
+}
+
+.about-heading {
+    max-width: 90%;
+    padding-top: 4%;
+}
+
+.progressbar {
+    height: 3px;
+    border-radius: 16px;
+    color: #99C83C !important;
+}
+
+.crd2 {
+    width: 100%;
+    height: 321px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: none;
+    background: #FAFAFA;
+}
+
+.crd3 {
+    display: flex;
+    width: auto;
+    height: 321px;
+    padding: 59px 18px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.crd2:hover {
+    box-shadow: 0 22px 43px rgba(0, 0, 0, 0.32);
+    cursor: pointer;
+    border: 1px solid #014D85;
+}
+
+.cardimg1 {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+}
+
+.abt-img {
+    border-radius: 16px !important;
+}
+.crd2-div{
+    border-radius: 16px;
+    
+}
+@media (max-width: 900px) {
+
+    .img-container {
+        height: 30vh !important;
+    }
+
+    .icon {
+        height: 58px;
+        width: 58px;
+    }
+
+    .about-title {
+        margin-top: 5%;
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 112%;
+        /* 35.84px */
+        letter-spacing: -2.72px;
+    }
+
+    .about-subtitle {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 151.523%;
+        /* 18.183px */
+    }
+.crd2-div{
+    margin-bottom: 5% !important;
+    width: auto!important;
+    padding: 27px 26px;
+    margin: auto;
+    background: #F4F4F4;
+}
+    .crd2 , .crd3 {
+        margin-bottom: 5% !important;
+        width: 330px !important;
+        margin: auto;
+        height: fit-content;
+    }
+
+    .ab-img {
+        height: 330px !important;
+        width: 330px !important;
+        margin: auto !important;
+        margin-top: 32px !important;
+    }
+
+    .values-row {
+        flex-direction: column-reverse !important;
+    }
+}

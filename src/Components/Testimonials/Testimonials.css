@@ -1,0 +1,143 @@
+.body {
+    margin-bottom: 5%;
+    margin-top: 0%;
+}
+
+.ttxt {
+    color: #565657;
+    font-size: 96px;
+    font-weight: 500;
+    line-height: 112%;
+    letter-spacing: -7.2px;
+}
+
+.txt2 {
+    color: #666C89;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 151.523%;
+}
+
+.tcard {
+    width: 100%;
+    height: 363px;
+    border-radius: 12px;
+    border: none !important;
+    border: 0.5px solid #3F3E3E;
+    background: #F9F9F9;
+}
+
+.crd-title {
+    color: #565657;
+    ;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
+    /* 27px */
+    letter-spacing: -0.36px;
+}
+
+.crd-text {
+    color: #666C89;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+    text-align: left;
+}
+
+.crds-link.active{
+    box-shadow: none !important;
+    cursor: pointer;
+    border-radius: 5px;
+    background: none !important;
+
+    .crd-title,
+    .crd-text,
+    .footertxt,
+    .cardfootertext {
+        color: var(--primary-0, #FFF);
+    }
+    .tcard{
+        background-color: #014D85 !important;
+    }
+}
+
+.cardfootertext {
+    color: #565657;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
+    /* 27px */
+    letter-spacing: -0.54px;
+}
+
+.footertxt {
+    color: var(--secondary-400, #596780);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.28px;
+}
+
+.ftr-img {
+    border-radius: 10px;
+}
+
+/* --------media query forless than 600 screen size------ */
+@media (max-width: 900px) {
+    @keyframes scroll {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(calc(-200px * 5));
+        }
+      }
+    .ttxt {
+        font-size: 38px;
+        line-height: 109%;
+        letter-spacing: -2.85px;
+
+    }
+
+    .txt2 {
+        font-size: 16px;
+        line-height: 144.523%;
+        /* 23.124px */
+    }
+
+    .crdsgroup {
+        max-width: 100%;
+        display: inline-flex !important;
+        overflow: scroll !important;
+    }
+
+    .tcard{
+        width: 90%!important ;
+        height: 340px !important;
+        margin: auto !important;
+        background-color: #014D85 !important;
+        
+    }
+    .crd-text{
+        text-align: left !important;
+        color: #FFF !important;
+    }
+    .crd-title, .footertxt, .cardfootertext{
+        color: #FFF !important;
+    }
+    .invoiceimg{
+        display: none !important;
+    }
+    .invoiceimg1{
+        display: block !important;
+        margin-top: 10%;
+    }
+    
+    .scr-bttns{
+       align-items: center !important;
+       justify-content: center !important;
+    }
+    
+}

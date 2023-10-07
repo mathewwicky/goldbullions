@@ -1,0 +1,51 @@
+.qheading {
+    color: #565657;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 104%;
+    /* 74.88px */
+    letter-spacing: -3.6px;
+}
+
+.qsub-title {
+    color: #666C89;
+    width: 550px;
+    flex-shrink: 0;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 151.523%;
+    /* 33.335px */
+}
+
+.qtitle {
+    color: #292D32;
+    font-family: Aeonik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 151.523%;
+    /* 24.244px */
+}
+
+.q-ans {
+    color: #666C89;
+    font-family: Aeonik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 151.523%;
+    /* 24.244px */
+}
+
+/* media queries */
+@media (max-width: 900px) {
+    .qsub-title{
+        font-size: 16px;
+        max-width: 100% !important;
+        margin-bottom: 20%;
+    }
+    .qheading{
+        font-size: 38px;
+        max-width: 100% !important;
+    }
+}

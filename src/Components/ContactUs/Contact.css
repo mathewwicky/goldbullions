@@ -1,0 +1,164 @@
+.body {
+    padding-top: 5%;
+}
+
+.ctxt {
+    color: #565657;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 52%;
+    /* 37.44px */
+    letter-spacing: -3.6px;
+}
+
+.cbttn {
+    display: flex;
+    padding: 20px 41px;
+    align-items: flex-start;
+    gap: 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.cticon {
+    color: #565657;
+    background: white;
+    border: 0;
+    font-family: Work Sans;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 52%;
+    /* 37.44px */
+    letter-spacing: -3.6px;
+}
+
+.txt4 {
+    color: var(--text-inverse, #FFF);
+    font-family: Aeonik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    /* 25.2px */
+    letter-spacing: -0.54px;
+    margin-bottom: 0;
+}
+
+.txt5 {
+    color: var(--text-inverse, #FFF);
+    font-family: Aeonik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    /* 22.4px */
+    opacity: 0.699999988079071;
+}
+
+.column1 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+}
+
+.ctxt4 {
+    color: #666C89;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 151.523%;
+    /* 33.335px */
+}
+
+.formcard {
+    border-radius: 16px;
+    border: none;
+    background: #FFF;
+    box-shadow: 0px 9.102941513061523px 43.69411849975586px 0px rgba(40, 43, 111, 0.10);
+
+}
+
+.formbutton {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    text-transform: lowercase;
+    font-size: 20px;
+    background: #014D85;
+}
+
+.formbutton:hover {
+    background: #99C83C;
+}
+
+.formcardtitle {
+    color: #292D32;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 151.523%;
+    /* 33.335px */
+}
+
+.formcardtext {
+    color: #292D32 !important;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 151.523%;
+    /* 27.274px */
+}
+
+.questions {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    padding: 32px;
+    gap: 24px;
+    border-radius: 8px;
+    background: #014D85;
+}
+
+.t-email{
+    text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+
+    .ctxt,
+    .cticon {
+        font-size: 32px !important;
+
+        line-height: 0%;
+        /* 0px */
+        letter-spacing: -1.6px;
+    }
+
+    .ctxt4 , .formcardtext{
+        font-size: 16px !important;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 151.523%;
+    }
+    .cbttn{
+        display: flex;
+        width: 100% !important;
+        padding: 20px 41px;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+    }
+    .questions{
+        background-color: #FFF !important;
+      .txt4 , .txt5{
+        color: #292D32 !important;
+      }
+      .phone-badge{
+        background: #014D85 !important;
+        border-radius: 50%;
+      }
+    }
+}
