@@ -1,6 +1,6 @@
-import React from "react";
+// import React from "react";
 import "../Product.css"
-import { Container, Row, Col } from "react-bootstrap";
+// import { Container, Row, Col } from "react-bootstrap";
 const SupplyChain = () => {
     // return (
     //     <>
